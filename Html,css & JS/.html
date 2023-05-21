@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel = "stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <Main>
+
+    <div class="generator">
+      <h1>Password Generator</h1>
+
+      <label class="password-wrap">
+        <input 
+        type="text" id="password" readonly 
+        placeholder="Generate a password"
+        />   
+        <!-- copy and paste button for some reason the content_copy functionality didnt put the symnbol for the copy symbol down -->
+        <button class="material-icons" id="copy">content_copy</button>
+
+        </label>
+<!-- Putting in our Labels for our password generators  -->
+        <label>
+          <span> Password Length:</span>
+          <input type="number" id="length" value="16" />
+        </label>
+
+        <label>
+          <span> Include Uppercase Letters: </span>
+          <input type="checkbox" id="uppercase" checked />
+        </label>
+        
+        <label>
+          <span> Include Lowercase Letters:</span>
+          <input type="checkbox" id="lowercase" checked />
+        </label>
+        
+        <label>
+          <span> Include Numbers:</span>
+          <input type="checkbox" id="numbers" checked />
+        </label>
+
+        <label>
+          <span> Include Symbols:</span>
+          <input type="checkbox" id="symbols" checked />
+        </label>
+
+      <button type="submit" id="generate">Generate Password</button>
+
+
+
+
+    </div>
+
+
+
+  </Main>
+  <script src=".js"></script>
+</body>
+</html>
