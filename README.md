@@ -22,3 +22,5 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page.
 
 
+<img width="619" alt="Screenshot 2023-05-21 at 6 03 53 PM" src="https://github.com/Julianjaguilar/Javascriptweek2/assets/127900035/f055a635-d098-4f61-a0b6-4974f0bd09ba">
+
